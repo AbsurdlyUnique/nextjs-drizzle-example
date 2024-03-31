@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1711889549292,
+      "tag": "0000_unknown_molten_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1711890688723,
+      "tag": "0001_goofy_sage",
+      "breakpoints": true
+    }
+  ]
+}

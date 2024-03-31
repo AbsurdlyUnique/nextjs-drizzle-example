@@ -1,0 +1,21 @@
+{
+    "name": "drizzle example",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "forwardPorts": [3000, 5432],
+    "remoteUser": "root",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot",
+                "cweijan.vscode-postgresql-client2",
+                "Nuxtr.nuxt-vscode-extentions",
+                "ms-vscode.vscode-typescript-next",
+                "imgildev.vscode-drizzle-snippets",
+                "swellaby.node-pack",
+                "kennethfreitas.node-developer"
+            ]
+        }
+    }
+}
